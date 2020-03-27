@@ -1,0 +1,29 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    background: #F46524;
+    /* margin: 10px 0; */
+    /* border: 1px solid; */
+}
+
+.headerMenu a{
+    display:inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+
+.headerMenu a:hover{
+    color:#CDCDCD;
+}
+
+.socialmedias {
+    display:inline-block;
+    margin: 2px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}

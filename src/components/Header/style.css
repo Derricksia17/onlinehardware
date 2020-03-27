@@ -1,0 +1,31 @@
+.headerMain{
+    background-color: white;
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search form{
+    display: flex;
+    margin: auto;
+}
+
+.search input{
+    background-color: #E8E4E4;
+    border: 0;
+    outline: none;
+    width: 500px;
+    padding: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+}
+
+.search img {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.navMain img{
+    padding: 0 25px;
+}

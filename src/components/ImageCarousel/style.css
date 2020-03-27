@@ -1,0 +1,49 @@
+.ImageCarousel {
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    width: 80%;
+    margin:20px auto;
+    
+  }
+   
+   
+  .slick-dots li.slick-active button:before {
+    color:orange !important;
+}
+
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+
+  /*  */
+  .slick-prev:before,
+.slick-next:before {
+  color: grey!important;
+}
+  
+  
+  .slides {
+    height: 250px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .slides .slick-prev {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 50%;
+    height: 50px;
+  }
+  .slides .slick-prev:hover{
+    background-color: white;
+  }
+  
+  .slides .slick-next {
+
+  }
+  
