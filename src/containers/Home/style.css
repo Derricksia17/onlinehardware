@@ -1,0 +1,8 @@
+.imageSlider img {
+    z-index: -10;
+    align-content: inherit;
+    border: 1px solid;
+    width: 10000px;
+    height: 330px;
+    margin: -10 -10;
+}

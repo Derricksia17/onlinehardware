@@ -1,24 +1,20 @@
-import React from 'react';
-import './style.css';
-import App from '../../App';
-import ImagesForCarousel from '../../components/ImagesForCarousel';
-import samplepic from '../../assets/pictures/samplepic.jpg'
-
+import React from "react";
+import "./style.css";
+import App from "../../App";
+import ImagesForCarousel from "../../components/ImagesForCarousel";
+import pic1 from "../../assets/pictures/samplepic.jpg";
 
 const Home = props => {
-    return (
-        <div>
-
-            {/* <ImagesForCarousel 
-            url1= {img src:'../../assets/pictures/samplepic.jpg'} 
-            url2='../../assets/pictures/samplepic.jpg' 
-            url3='../../assets/pictures/samplepic.jpg' 
-            url4='../../assets/pictures/samplepic.jpg'/> */}
-
-
-            
-        </div>
-    )
-}
+  return (
+    <div className = 'imageSlider'>
+      <ImagesForCarousel
+        url1={<img src={pic1} alt="flowers" />}
+        url2={<img src={pic1} alt="flowers" align="center" />}
+        url3={<img src={pic1} alt="flowers" align="center" />}
+        url4={<img src={pic1} alt="flowers" align="center" />}
+      />
+    </div>
+  );
+};
 
 export default Home;

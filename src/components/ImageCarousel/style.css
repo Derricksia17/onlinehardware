@@ -2,14 +2,15 @@
     text-align: center;
     background-color: white;
     border: 1px solid;
-    width: 80%;
-    margin:20px auto;
-    
+    width: 90%;
+    /* margin:20px auto; */
+    margin: auto;
+    padding: 0;
   }
    
    
   .slick-dots li.slick-active button:before {
-    color:orange !important;
+    color:#F46524 !important;
 }
 
   .slides .slick-prev,
@@ -22,7 +23,7 @@
   /*  */
   .slick-prev:before,
 .slick-next:before {
-  color: grey!important;
+  color: #F46524!important;
 }
   
   
@@ -35,15 +36,6 @@
   .slides .slick-prev {
     margin: 0;
     padding: 0;
-    background-color: black;
-    opacity: 50%;
-    height: 50px;
   }
-  .slides .slick-prev:hover{
-    background-color: white;
-  }
-  
-  .slides .slick-next {
 
-  }
   
