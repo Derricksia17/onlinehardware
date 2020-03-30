@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {NavLink} from 'react-router-dom'
 /**
 * @author
 * @function MiniHeader
@@ -13,10 +14,10 @@ const MiniHeader = (props) => {
           </div>
 
           <nav className="headerMenu">
-              <a href ='#'>Our Branches</a>
-              <a href ='#'>Customer Service</a>
-              <a href ='#'>Login</a>
-              <a href ='#'>Register</a>
+              <NavLink to='/branches'>Our Branches</NavLink>
+              <NavLink to='/customer-service'>Customer Service</NavLink>
+              <NavLink to='#'>Login</NavLink>
+              <NavLink to='#'>Register</NavLink>
           </nav>
 
       </header>

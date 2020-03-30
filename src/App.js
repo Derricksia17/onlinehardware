@@ -9,6 +9,7 @@ import Branches from './containers/Branches';
 import Products from './containers/Products';
 import CustomerService from './containers/CustomerService';
 import Categories from './containers/Categories';
+import Brands from './containers/Brands';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
               <Route path ='/branches' component={Branches}/>
               <Route path ='/products' component={Products}/>
               <Route path ='/categories' component={Categories}/>
+              <Route path ='/brands' component={Brands}/>
+
 
             </div>
           </div>

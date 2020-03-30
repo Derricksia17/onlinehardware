@@ -6,6 +6,7 @@ import addtocart from '../../assets/icons/add-to-cart.png';
 import profile from '../../assets/icons/profile.png';
 // import search from '../../assets/icons/search.png';
 import logo from '../../assets/logo/diy_horizontal_logo.jpg';
+import {NavLink} from 'react-router-dom'
 
 
 
@@ -28,7 +29,7 @@ const Header = (props) => {
     <div>
         <header className ='headerMain'>
             <div>
-            <img alt = "logo" src={logo}  href ='#' width ='200'></img>
+            <NavLink to='/'><img alt = "logo" src={logo}  href ='#' width ='200'></img></NavLink>
             </div>
 
 
