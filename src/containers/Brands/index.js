@@ -23,8 +23,8 @@ const Brands = (props) => {
 
     <section className='container'>
         <Sidebar/>
-        <div className='sortBar'>
-        Brands
+        <div className='displayBlock'>
+            <div className='page'>Brands</div>
         <SortBar/>
         <BrandPost/>
         </div>    

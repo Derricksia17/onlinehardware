@@ -7,7 +7,7 @@ import './style.css'
 
 const SortBar = (props) => {
   return(
-    <div>SortBar</div>
+    <div className='sortBar'>SortBar</div>
    )
 
  }

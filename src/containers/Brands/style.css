@@ -5,7 +5,7 @@
     
 }
 
-.sortBar{
+.displayBlock{
     display: inline-block;
     width: 100%;
 }
@@ -17,4 +17,9 @@
     width: 100%;
     height: 330px;
     margin: -10 -10;
+}
+
+.pageTitle{
+    width: 10px;
+    font-size: 100px;
 }
